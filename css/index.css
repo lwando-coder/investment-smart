@@ -1,0 +1,155 @@
+html, body {
+margin: 0 auto;
+height: 100%;
+font-family: 'Barlow Semi Condensed', sans-serif;
+scroll-behavior: smooth;
+}
+.top {
+  display: inline-grid;
+  align-items: center;
+  grid-template-columns: auto auto;
+  grid-column-gap: 300px;
+  padding: 10px;
+  color: white;
+  width: 100%;
+  background: #090710;
+}
+.navigationbar ul {
+  list-style: none;
+text-align: center;
+margin-top: -40px;
+padding-bottom: 15px;
+}
+
+.navigationbar ul li {
+  display: inline-grid;
+  margin: 30px;
+
+}
+.navigationbar ul li a {
+  text-decoration: none;
+  color: #000;
+}
+header{
+    width: 100%;
+    background-color: white;
+  }
+.intro {
+background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/skyscraper.jpeg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+min-height: 400px;
+text-align: center;
+padding-top: 150px;
+color: white;
+}
+
+.intro p{
+  font-size: 20px;
+}
+.intro h1{
+font-size:  50px;
+}
+
+#introbutton{
+font-size: 20px;
+padding: 15px;
+width: 300px;
+background: #CE9510;
+border: 2px solid #CE9510;
+color: #fff;
+}
+
+.grid-container {
+display: grid;
+grid-column-gap: 20px;
+justify-content:space-around;
+grid-template-columns: auto auto auto;
+padding: 10px;
+}
+.grid-items {
+border: 1px solid #CDCDCD;
+font-size: 20px;
+padding: 15px;
+text-align: center;
+width: 250px;
+}
+hr {
+  width: 50px;
+  color: #CE9510;
+  border-top: 1px solid #CE9510;
+}
+.services h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+
+#missionimage{
+width: 100%;
+
+}
+.gridcontainer{
+  display: grid;
+text-align: left;
+grid-column-gap: 20px;
+grid-template-columns: auto auto;
+}
+
+.mission {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  width: 400px;
+  color: white;
+  padding: 50px 200px 50px 400px;
+}
+.benefits {
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/coder.jpeg");
+background-size: cover;
+background-repeat: no-repeat;
+color: white;
+padding: 50px 200px 50px 50px;
+  }
+
+  .benefitslist {
+list-style: none;
+  }
+#button{
+    font-size: 15px;
+    padding:20px;
+    width: 300px;
+    background: #CE9510;
+    border: 2px solid #CE9510;
+    color: #fff;
+}
+button {
+  font-size: 15px;
+  padding:20px;
+  width: 300px;
+  background: #CE9510;
+  border: 2px solid #CE9510;
+  color: #fff;
+}
+.grid-client-container{
+  display: grid;
+  grid-column-gap: 10px;
+  justify-content:space-around;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+}
+.clientslist{
+border: 5px solid white;
+padding: 0px 0px 0px 0px;
+}
+.clientslist ul{
+  list-style: none;
+   background: #090710;
+   color: white;
+
+}
+.clientslist p{
+  margin-left: 70px;
+}
